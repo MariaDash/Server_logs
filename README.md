@@ -47,3 +47,19 @@ Check that venv exists by `ls -la` command on remote machine
 scp main.py test_33_40@23.88.52.139:/home/test_33_40/test_server/main.py
 ```
 Check that main.py exists by `ls -la` command on remote machine
+3. Activate venv:
+```
+source venv/bin/activate
+(venv)test_33_40@ubuntu
+```
+you will see `(venv)` in the command line.
+4. Export flask
+```
+export   FLASK_APP=main.py
+export FLASK_DEBUG=1
+```
+5. Run FLASK
+```
+flask run --host='0.0.0.0' --port='5003'
+```
+Server is running!!!
