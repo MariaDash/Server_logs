@@ -22,8 +22,9 @@ tail -f app.log | grep error_log.log
 scp p_l_s.py test_33_40@23.88.52.139:/home/test_33_40/p_l_s.py
 enter password
 ```
-Where `scp` is a moving command,
-`p_l_s.py` - name of server,
-`test_33_40` name of remote user,
-`23.88.52.139` IP address of remote machine,
-`/home/test_33_40/p_l_s.py`  -end directory and name of end file
+Where:
++ `scp` is a moving command,
++ `p_l_s.py` - name of server,
++ `test_33_40` name of remote user,
++ `23.88.52.139` IP address of remote machine,
++ `/home/test_33_40/p_l_s.py`  -end directory and name of end file on remote machine
