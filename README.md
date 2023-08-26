@@ -16,8 +16,8 @@ tail -f app.log | grep --line-buffered ERROR >> error_log.log
 tail -f app.log | grep error_log.log
 ```
 ## 1. Pushing script (on python) from local machine to remote machine and testing server
-1. Open folder with script in CLI
-2. Push it
+1. Open folder with script in CLI on local machine
+2. Push it with scp
 ```
 scp p_l_s.py test_33_40@23.88.52.139:/home/test_33_40/p_l_s.py
 ```
@@ -28,11 +28,16 @@ Where:
 + `23.88.52.139` IP address of remote machine,
 + `/home/test_33_40/p_l_s.py`  -end directory and name of end file on remote machine we you will work with it
 3. Enter password
-4. Authorize into the remote server and open your work directory with the script file
-5. Run script:
+4. Authorize into the remote server
+5. In `second` terminal open your work directory with the script file
+6. Run script:
 ```
 python3 p_l_s.py
 ```
 6. testing script is running
 7. Advanced - you can edit script to `print` some info that will show that the script is running correctly.
 ## 2. We will browse the server with logs and we will nock at it with Postman
+1. Creating virtual environment to run python scripts on remote machine
+```
+python3 -m venv venv
+```
