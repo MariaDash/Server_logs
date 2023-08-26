@@ -34,4 +34,4 @@ Where:
 python3 p_l_s.py
 ```
 6. script is running
-
+7. Advanced - you can `print` some info that will show that the script is running correctly.
