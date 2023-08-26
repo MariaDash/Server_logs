@@ -34,7 +34,7 @@ Where:
 python3 p_l_s.py
 ```
 6. Server is running
-7. open app.log
+7. Open app.log
 ```
 cat app.log
 ```
