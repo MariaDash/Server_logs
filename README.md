@@ -41,7 +41,9 @@ python3 p_l_s.py
 ```
 python3 -m venv venv
 ```
+Check that venv exists by `ls -la` command on remote machine
 2. From the local machine send `main.py` file:
 ```
 scp main.py test_33_40@23.88.52.139:/home/test_33_40/test_server/main.py
 ```
+Check that main.py exists by `ls -la` command on remote machine
