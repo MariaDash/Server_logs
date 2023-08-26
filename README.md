@@ -34,7 +34,7 @@ Where:
 ```
 python3 p_l_s.py
 ```
-6. testing script is running
+6. Testing script is running
 7. Advanced - you can edit script to `print` some info that will show that the script is running correctly.
 ## 2. We will browse the server with logs and we will nock at it with Postman
 1. Creating virtual environment to run python scripts on remote machine
