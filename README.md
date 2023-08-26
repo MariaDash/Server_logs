@@ -41,3 +41,7 @@ python3 p_l_s.py
 ```
 python3 -m venv venv
 ```
+2. From the local machine send `main.py` file:
+```
+scp p_l_s.py test_33_40@23.88.52.139:/home/test_33_40/test_server/main.py
+```
