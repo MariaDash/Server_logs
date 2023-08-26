@@ -15,7 +15,7 @@ tail -f app.log | grep --line-buffered ERROR >> error_log.log
 ```
 tail -f app.log | grep error_log.log
 ```
-## Pushing server from local machine to remote machine
+## 1. Pushing script (on python) from local machine to remote machine and testing server
 1. Open folder with script in CLI
 2. Push it
 ```
@@ -33,5 +33,6 @@ Where:
 ```
 python3 p_l_s.py
 ```
-6. script is running
+6. testing script is running
 7. Advanced - you can edit script to `print` some info that will show that the script is running correctly.
+## 2. We will browse the server with logs and we will nock at it with Postman
