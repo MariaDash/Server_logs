@@ -26,5 +26,15 @@ Where:
 + `p_l_s.py` - name of server,
 + `test_33_40` name of remote user,
 + `23.88.52.139` IP address of remote machine,
-+ `/home/test_33_40/p_l_s.py`  -end directory and name of end file on remote machine
++ `/home/test_33_40/p_l_s.py`  -end directory and name of end file on remote machine we you will work with it
 3. Enter password
+4. Authorize into the remote server and open your worl directory with the server file
+5. Run server:
+```
+python3 p_l_s.py
+```
+6. Server is running
+7. open app.log
+```
+cat app.log
+```
