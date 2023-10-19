@@ -93,5 +93,21 @@ push `enter` and check the server is running
 3. Our log file is filling in with logs from Postman request
 * to test logs if you need specific information, you can ask developer to add in logs some information that will help you to test them because you will see failers and can localise the defect( if status code in 200 - write "success", if status code is 500 - write "error 500")
 
-
-Cre
+To stop server:
+1. `htop` - show processies, choose name ID to stop
+`kill IDnumber` - insert ID of the server here
+Isolate server to the container:
+```
+screen -S "Fl_logs"
+source venv/bin/activate
+export   FLASK_APP=main.py
+export FLASK_DEBUG=1
+flask run --host='0.0.0.0' --port='5003'
+```
+to exit screen push "Ctrl+AD"
+to open screen:
+```
+screen -ls
+screen -r screen_number
+```
+input here screen number
