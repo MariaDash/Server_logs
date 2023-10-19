@@ -37,7 +37,7 @@ python3 p_l_s.py
 6. Testing script is running
 7. Advanced - you can edit script to `print` some info that will show that the script is running correctly.
 ## 2. Pushing log file from remote machine to local machine:
-Change directory to that in with you will save logs, then copy them
+Change directory to that in which you will save logs, then copy them
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /
 $scp test_33_40@23.88.52.139:/home/test_33_40/test_server/logs.log logs.log
