@@ -42,7 +42,7 @@ Change directory to that in which you will save logs, then copy them
 Admin@DESKTOP-V6V9F0T MINGW64 /
 $scp test_33_40@23.88.52.139:/home/test_33_40/test_server/logs.log logs.log
 ```
-## 3. We will browse the server with logs and we will nock at it with Postman
+## 3. We will browse test server with logs
 1. Creating virtual environment to run python scripts on remote machine
 ```
 python3 -m venv venv
@@ -72,3 +72,26 @@ export FLASK_DEBUG=1
 flask run --host='0.0.0.0' --port='5003'
 ```
 Server is running!!!
+```
+* Serving Flask app "main.py" (lazy loading)
+* Environment: production
+* Debug mode: on
+* Running on  http://0.0.0.0:5003/ (Press Ctrl+C to quit)
+* Restarting with stat
+* Debugger is active!
+* Debugger PIN: 149-268-507
+```
+6. Checking that server is running:
+open browser and input in search line url with ip and port:
+```
+http://23.88.52.139:5003
+```
+push `enter` and check the server is running
+## 4. Open Postman
+1. Add GET request (request name:get_post_test) with parameters (in our case: name, age) and URL: http://23.88.52.139:5003
+2. Ane send the request.
+3. Our log file is filling in with logs from Postman request
+* to test logs if you need specific information, you can ask developer to add in logs some information that will help you to test them because you will see failers and can localise the defect( if status code in 200 - write "success", if status code is 500 - write "error 500")
+
+
+Cre
