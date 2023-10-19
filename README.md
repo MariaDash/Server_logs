@@ -22,7 +22,7 @@ tail -f app.log | grep error_log.log
 scp p_l_s.py test_33_40@23.88.52.139:/home/test_33_40/p_l_s.py
 ```
 Where:
-+ `scp` is a moving command,
++ `scp` is a secure copy command,
 + `p_l_s.py` - name of script,
 + `test_33_40` name of remote user,
 + `23.88.52.139` IP address of remote machine,
