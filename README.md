@@ -1,7 +1,7 @@
 # Server_logs
 ### Filtering logs by name
 ```
-fing server_logs -name  "*.log"
+find server_logs -name  "*.log"
 ```
 ### Filtering and show logs in real time
 ```
