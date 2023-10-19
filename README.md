@@ -60,7 +60,7 @@ Check that main.py exists by `ls -la` command on remote machine
 source venv/bin/activate
 (venv)test_33_40@ubuntu
 ```
-you will see `(venv)` in the command line.
+you will see `(venv)` in the command line as a result
 
 4. Export flask
 ```
